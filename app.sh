@@ -2,6 +2,6 @@
 
 git clone https://github.com/erdincka/catchx.git /app
 
-# python3 /app/main.py
+python3 /app/main.py
 
-sleep infinity
+# sleep infinity
