@@ -4,6 +4,8 @@
 
 [ -d app ] || git clone https://github.com/erdincka/catchx.git /app
 
-python3 /app/main.py
+cd /app
+python3 main.py
 
-# sleep infinity
+# don't exit when service dies.
+sleep infinity
